@@ -15,5 +15,5 @@ rustfmt.toml
 .idea/
 *.swp
 .DS_Store
-modules.md
+modules*.md
 Thumbs.db

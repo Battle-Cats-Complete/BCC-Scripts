@@ -1,0 +1,17 @@
+[package]
+name = "neko-arc"
+version.workspace = true
+edition.workspace = true
+license-file.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[dependencies]
+clap = { version = "4.6.1", features = ["derive"] }
+flate2 = "1.1.9"
+image = { version = "0.25.10", default-features = false, features = ["png"] }
+texture2ddecoder = "0.1.2"
+rayon = "1.12.0"
+tracing = "0.1.44"
+tracing-subscriber = { version = "0.3.23", features = ["json"] }
+colored = "3.1.1"

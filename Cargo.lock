@@ -1319,6 +1319,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "neko-arc"
+version = "0.2.5"
+dependencies = [
+ "clap",
+ "colored",
+ "flate2",
+ "image",
+ "rayon",
+ "texture2ddecoder",
+ "tracing",
+ "tracing-subscriber",
+]
+
+[[package]]
 name = "neko-cloud"
 version = "0.2.5"
 dependencies = [
@@ -1490,6 +1504,12 @@ dependencies = [
  "smallvec",
  "windows-link",
 ]
+
+[[package]]
+name = "paste"
+version = "1.0.15"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "57c0d7b74b563b49d38dae00a0c37d4d6de9b432382b2892f0574ddcae73fd0a"
 
 [[package]]
 name = "pbkdf2"
@@ -2326,6 +2346,15 @@ name = "tap"
 version = "1.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "55937e1799185b12863d447f42597ed69d9928686b8d88a1df17376a097d8369"
+
+[[package]]
+name = "texture2ddecoder"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "427ae8ec7f2f0fdd3146b77cfa44bea880caf066f7e55398a8467afe2645c832"
+dependencies = [
+ "paste",
+]
 
 [[package]]
 name = "thiserror"

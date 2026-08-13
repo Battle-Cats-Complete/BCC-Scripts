@@ -6,6 +6,16 @@ decrypted/
 apk/
 app/
 
+# Quality of Life
+.cargo/
+.cl*/
+.st*/
+.re*/
+*.py
+CL*.md
+ST*.md
+RE*.ms
+
 # Other
 /target/
 **/*.rs.bk
